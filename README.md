@@ -180,9 +180,25 @@ python app/app.py
 
 The server will start on `http://0.0.0.0:80`
 
+
+
+## Sending notification from Zerobyte
+
+* Go to **Notification** and create a new notification.
+* Giva the notification a name, for example "Whatsapp".
+* In type, select **Custom (Shoutrrr URL).
+* In the URL, insert your zerobyte proxy URL in the following format: **generic://[Server_Address]/send?chatid=[Whatsapp chat ID]**
+
+Replace the following parameters with your own:
+* [Server_Address]: Your proxy address, without http://https
+* [Whatsapp chat ID]: With your own chatid (Group or Contact)
+  
+![Zerobyte](screenshots/zerobyte.png)
+
 ## Logging
 
 The application uses Loguru for logging. Logs include:
 - Successful message deliveries
 - Error messages with stack traces
 - Request/response information
+
