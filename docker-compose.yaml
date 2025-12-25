@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  zero-green:
+    image: 
+    container_name: zero-green
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - INSTANCE_ID=your_instance_id_here
+      - TOKEN=your_token_here
