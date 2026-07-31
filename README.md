@@ -193,7 +193,7 @@ Replace the following parameters with your own:
 * [Server_Address]: Your proxy address, without http://https
 * [Whatsapp chat ID]: With your own chatid (Group or Contact)
   
-![Zerobyte](screenshots/zerobyte.png)
+![Zerobyte](https://raw.githubusercontent.com/t0mer/zerobyte-whatsapp-notification-service/main/screenshots/zerobyte.png)
 
 ## Logging
 
